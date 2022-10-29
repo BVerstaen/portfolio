@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Zilla+Slab:ital@0;1&display=swap" rel="stylesheet"> 
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <title>Le portfolio de Baptiste Verstaen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/portrait.png">
+</head>
+
+<body>
+    <!--Header du site-->
+    <header id="head">
+        <a href="index.html">
+        <img src="images/portrait2.png" alt="une photo de moi">
+        <h1>Portfolio de Baptiste Verstaen</h1>
+        <h2>étudiant à l'IIM</h2>
+        <img src="images/IIMlogo.jpg" alt="Logo de l'IIM">
+        </a>
+    </header>
+
+    
+    <main>
+        <!--Presentation de la section-->
+        <section class="presentationTexte">
+            <h2>Animation 3D</h2>
+            <h3>Ayant l’ambition de créer des jeux 3D, je me suis en partie formé à cette discipline, notamment en utilisant le logiciel Blender. Je poursuis désormais cet apprentissage à l’IIM.</h3>
+        </section>
+    
+        <!--Decor Fantasy-->
+        <article>
+            <div class="articleText">
+                <h3>Décor Fantasy & modèle Lumière</h3>
+                <p>Durant le premier module de 3D, nous devions modéliser un décor de type "Fantasy" & un modèle 3D de lumière.</p>    
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active articleGalerie">
+                    <img src="images/3d/decor1.png" alt="Une image de mon decor Fantasy">
+                  </div>
+                  <div class="carousel-item articleGalerie">
+                    <img src="images/3d/decor2.png" alt="Une image de mon decor Fantasy">
+                  </div>
+                  <div class="carousel-item articleGalerie">
+                    <img src="images/3d/lumiere.png" alt="Une image de lumière">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </article>
+    
+        <!--Création perso.-->
+        <article>
+            <div class="articleText">
+                <h3>Création personelle</h3>
+                <p>Voici des images de mes créations personelles effectués sur Blender :</p>    
+            </div>
+
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>                  
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active articleGalerie">
+                    <img src="images/3d/image1.png" alt="Une image de l'une de mes créations 3D">
+                  </div>
+                  <div class="carousel-item articleGalerie">
+                    <img src="images/3d/image2.png" alt="Une image de l'une de mes créations 3D">
+                  </div>
+                  <div class="carousel-item articleGalerie">
+                    <img src="images/3d/image3.png" alt="Une image de l'une de mes créations 3D">
+                  </div>
+                  <div class="carousel-item articleGalerie">
+                    <img src="images/3d/image4.png" alt="Une image de l'une de mes créations 3D">
+                  </div>                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </article>
+    </main>
+
+    <!--Footer du site-->
+    <footer>
+        <a href="#head">Revenir en haut de page</a>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

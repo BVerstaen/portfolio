@@ -1,0 +1,76 @@
+.presentation{
+    display: flex;
+    flex-wrap: wrap;
+}
+.presentation img{
+    width:50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presentationTexte{
+    background-color: rgb(232, 230, 230);
+    margin: 2%;
+    padding: 1%;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+}
+.presentationTexte h2{
+    font-family: 'Holtwood One SC', serif;
+    font-size: 20px;
+}
+.presentationTexte h3{
+    color: black;
+    font-size: 17px;
+}
+.presentationTexte p{
+    text-align: center;
+    padding-top: 2%;
+    color: blue;
+    font-size: 15px;
+}
+.presentationTexte a{
+    text-decoration: none;
+}
+
+
+.presentationImage{
+    animation:imagepresentation 5s infinite;
+}
+@keyframes imagepresentation{
+    from{
+        transform: translate(5%) rotate(10deg) scale(0.8) skew(5deg);
+    }
+    50%{
+        transform: translate(-5%) rotate(-10deg) scale(0.9) skew(-5deg);
+    }
+    to{
+        transform: translate(5%) rotate(10deg) scale(0.8) skew(5deg);
+    }
+}
+
+/*--- Responsive---*/
+@media screen and (min-width: 1191px){
+    .presentationFlex{
+        width: 45%;
+    }
+    .presentationTexte{
+        padding-top: 2%;
+    }
+    .presentationTexte h2{
+        font-size: 30px;
+    }
+    .presentationTexte h3{
+        font-size: 22px;
+    }
+    .presentationTexte p{
+        font-size: 22px;
+        color: darkblue;
+    }
+    .presentationImage{
+        width: 45%;
+
+    }
+}

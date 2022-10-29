@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Zilla+Slab:ital@0;1&display=swap" rel="stylesheet"> 
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <title>Le portfolio de Baptiste Verstaen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/portrait.png">
+</head>
+
+<body>
+    <!--Header du site-->
+    <header id="head">
+        <a href="index.html">
+        <img src="images/portrait2.png" alt="une photo de moi">
+        <h1>Portfolio de Baptiste Verstaen</h1>
+        <h2>étudiant à l'IIM</h2>
+        <img src="images/IIMlogo.jpg" alt="Logo de l'IIM">
+        </a>
+    </header>
+
+    
+    <main>
+        <!--Presentation de la section-->
+        <section class="presentationTexte">
+            <h2>Jeux Vidéo</h2>
+            <h3>Étant passionné par le domaine du jeu vidéo, j’ai appris en autodidacte différents langages de programmation. Je poursuis désormais cet apprentissage à l’IIM.</h3>   
+        </section>
+         
+        <!--Army of prisonners-->
+        <article>
+            <div class="articleText">
+                <h3>Army of prisonners</h3>
+                <p>Army of prisonners est un jeu de plateforme où le joueur doit libérer les prisonniers d'un vaisseau pénitentier.
+                <br>Durant le jeu, le joueur pourra ainsi libérer des prisonniers qui se joindront à la quête.<br>
+                A chaque fois que le joueur meurt ou atteint un point de contrôle, il peut (ou doit) changer de prisonnier parmi ceux qu’il a libérés.
+                </p>
+    
+                <!--Penser à retirer quand on aura des images-->
+                <p><br>Des images du jeu arriveront bientôt...</p>
+            </div>
+        </article>
+
+        <!--When the school bell rings-->
+        <article>
+            <div class="articleText">
+                <h3>When the school bell rings</h3>
+                <p>When the school bell rings est un jeu de plateforme/course contre la montre dont le but est de se rendre dans votre salle de classe.
+                    <br><br>
+                    J’ai développé ce jeu sur mon temps libre avant de rejoindre l'IIM.
+                </p>
+            </div>
+            <!--
+            <div class="articleGalerie">
+                <img src="images/jv/WTSBR.png" alt="une image du jeu">
+                <img src="images/jv/WTSBR2.png" alt="une autre image du jeu">
+            </div>
+            -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active articleGalerie">
+                    <img src="images/jv/WTSBR.png" alt="une image du jeu">
+                  </div>
+                  <div class="carousel-item articleGalerie">
+                    <img src="images/jv/WTSBR2.png" alt="une autre image du jeu">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </article>
+
+        <!--Eye of Peace-->
+        <article>
+            <div class="articleText">
+                <h3>Eye of Peace</h3>
+                <p>Eye of Peace est un jeu de tir à la première personne pour Android que j’ai développé durant mon année de terminale 2021-2022. <br> <br>
+                    Le projet a depuis été mis de côté (même s’il m’a bien servi lors de mon entretien d'admission à l’IIM).
+                </p>
+            </div>     
+
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active articleGalerie">
+                    <img src="images/jv/EOP.png" alt="une image du jeu">
+                  </div>
+                  <div class="carousel-item articleGalerie">
+                    <img src="images/jv/EOP2.png" alt="une autre image du jeu">
+                  </div>                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </article>
+    </main>
+
+    <!--Footer du site-->
+    <footer>
+        <a href="#head">Revenir en haut de page</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

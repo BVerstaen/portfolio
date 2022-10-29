@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Zilla+Slab:ital@0;1&display=swap" rel="stylesheet"> 
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <title>Le portfolio de Baptiste Verstaen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/portrait.png">
+</head>
+
+<body>
+    <!--Header du site-->
+    <header id="head">
+        <a href="index.html">
+        <img src="images/portrait2.png" alt="une photo de moi">
+        <h1>Portfolio de Baptiste Verstaen</h1>
+        <h2>étudiant à l'IIM</h2>
+        <img src="images/IIMlogo.jpg" alt="Logo de l'IIM">
+        </a>
+    </header>
+
+    
+    <main>
+        <!--Presentation de la section-->
+        <section class="presentationTexte">
+            <h2>Créa Design</h2>
+            <h3>Dans l'axe "Création & Design", nous devions choisir un groupe de musique et compléter les différents modules en fonction de cet artiste. <br>
+                J'ai choisis le groupe de rock alternatif britannique "<a href="https://www.blur.co.uk/">Blur</a>".
+            </h3>
+        </section>
+
+        <!--Couverture de blur-->
+        <article>
+            <div class="articleText">
+                <h3>Pochette d'album</h3>
+                <p>Voici ma pochette sur un hypothétique nouvel album de Blur :</p>    
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active articleGalerie">
+                    <img src="images/crea/recto.png" alt="Recto de l'album">
+                  </div>
+                  <div class="carousel-item articleGalerie">
+                    <img src="images/crea/verso.png" alt="Verso de l'album">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </article>
+
+        <!--Projet Perso.-->
+        <article>
+            <div class="articleText">
+                <h3>Projet personel</h3>
+                <p>Dans le processus de création de mes jeux, la partie graphique est importante. Même si je n’ai pas forcément les compétences artistiques, je m’attache à donner un style visuel à chacun de mes projets.</p>    
+            </div>
+            <div class="articleImage">
+                <img src="images/crea/perso1.png" alt="Des créations perso.">
+            </div>
+        </article>
+    </main>
+
+    <!--Footer du site-->
+    <footer>
+        <a href="#head">Revenir en haut de page</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
